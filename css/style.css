@@ -751,7 +751,8 @@ display: flex;
 }
 
 .input-box {
-    margin-bottom: 8px;
+    position: relative;
+    margin-bottom: 16px;
 }
 
 .modal-label {
@@ -768,6 +769,7 @@ display: flex;
 
 .input-box-container {
    position: relative;
+   margin-bottom: 16px;
 }
 
 .modal-input {
