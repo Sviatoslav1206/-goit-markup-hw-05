@@ -581,17 +581,24 @@ display: flex;
 
 .form {
     display: flex;
+    gap: 24px;
+
 }
 
 .label {}
 
 .input {
     border: 1px solid #fff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;  
+
         border-radius: 4px;
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background-color: #2e2f42;
+        background-color: transparent;
         margin-right: 24px;
         color: #fff;
 
@@ -614,11 +621,19 @@ display: flex;
         justify-content: center;
         flex-direction: row;
         gap: 16px;
+
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
     
     border-radius: 4px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background: #4d5ae5;
+        border: none;
         
 }
 
